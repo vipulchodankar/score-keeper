@@ -10,32 +10,34 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6 text-center score-display d-flex align-items-center justify-content-center"><span id="p1Display">0</span></div>
-            <div class="col-sm-6 text-center score-display d-flex align-items-center justify-content-center"><span id="p2Display">0</span></div>
+        <div class="row score-row">
+            <div class="col-6 text-center score-display d-flex align-items-center justify-content-center" id="p1div"><span id="p1Display">0</span></div>
+            <div class="col-6 text-center score-display d-flex align-items-center justify-content-center" id="p2div"><span id="p2Display">0</span></div>
         </div>
 
-        <div class="col-sm-12 text-center">
+        <div class="col-sm-12 text-center pt-1">
             <p>Playing to: 
                 <span id="winningScoreDisplay">5</span>
             </p>
         </div>
 
-        <div class="col-sm-12 text-center">
-                <input type="number">
+        <div class="col-sm-12 text-center mt-1 ">
+                <input type="number" class="text-center">
         </div>
 
-        <div class="row justify-content-center pt-3">
-            <div class="col-sm-2 text-center">
-                <button id="p1">Player One</button>
+        <div class="row justify-content-center p-0 m-0 pt-3">
+            <div class="col-6 d-flex align-items-center justify-content-center">
+                <button class="btn btn-dark" id="p1">Player One</button>
             </div>
             
-            <div class="col-sm-2 text-center">
-                <button id="p2">Player Two</button>
+            <div class="col-6 d-flex align-items-center justify-content-center">
+                <button class="btn btn-dark" id="p2">Player Two</button>
             </div>
-            
-            <div class="col-sm-2 text-center">
-                <button id="reset">Reset</button>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 d-flex align-items-center justify-content-center p-4">
+                <button class="btn btn-dark" id="reset">Reset</button>
             </div>
             
         </div>
