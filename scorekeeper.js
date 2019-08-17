@@ -50,6 +50,7 @@ function reset(){
 }
 
 winningScoreInput.addEventListener("change", function(){
+    reset();
     winningScore = Number(this.value);
     winningScoreDisplay.textContent = this.value;
 });
