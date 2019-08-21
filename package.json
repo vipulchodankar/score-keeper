@@ -1,0 +1,20 @@
+{
+  "name": "score-keeper",
+  "version": "1.0.0",
+  "description": "A small app to keep score.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server -p 6969 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipulchodankar/score-keeper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vipulchodankar/score-keeper/issues"
+  },
+  "homepage": "https://github.com/vipulchodankar/score-keeper#readme"
+}
