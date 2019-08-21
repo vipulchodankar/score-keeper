@@ -59,13 +59,10 @@
     <script type="text/javascript" src="js/scorekeeper.js"></script>
     <!-- Register Service Worker -->
     <script>
-        if ('serviceWorker' in navigator) {
-          window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/service-worker.js')
-                .then((reg) => {
-                  console.log('Service worker registered.', reg);
-                });
-          });
+        if('serviceWorker' in navigator){
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js');
+            })
         }
     </script>
 </body>
