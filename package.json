@@ -4,7 +4,7 @@
   "description": "A small app to keep score.",
   "main": "index.js",
   "scripts": {
-    "serve": "http-server -p 6969 -c-1"
+    "serve": "http-server -p 7070 -c-1"
   },
   "repository": {
     "type": "git",
