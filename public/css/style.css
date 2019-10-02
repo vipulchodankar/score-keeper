@@ -3,7 +3,7 @@ html, body{
     width: 100%;
     background: #212121;
     color: #fff;
-    background-image: linear-gradient(to top, #434343 0%, black 100%);
+    background-image: linear-gradient(to top, white 0%,#e55d14 100% );
 }
 
 .winner{
